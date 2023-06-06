@@ -1,5 +1,4 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:587172484624:task-definition/jaySheth_task_defi:1",
     "containerDefinitions": [
         {
             "name": "jayContainer",
@@ -35,37 +34,8 @@
     "taskRoleArn": "arn:aws:iam::587172484624:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::587172484624:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
     "volumes": [],
-    "status": "ACTIVE",
-    "requiresAttributes": [
-        {
-            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
-        },
-        {
-            "name": "ecs.capability.execution-role-awslogs"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.task-iam-role"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
-        },
-        {
-            "name": "ecs.capability.task-eni"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
-        }
-    ],
     "placementConstraints": [],
-    "compatibilities": [
-        "EC2",
-        "FARGATE"
-    ],
     "requiresCompatibilities": [
         "FARGATE"
     ],
@@ -75,7 +45,5 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-06-06T14:30:06.546Z",
-    "registeredBy": "arn:aws:sts::587172484624:assumed-role/AWSReservedSSO_AdministratorAccess_857ff518fbbcea9b/jay.sheth@intuitive.cloud",
     "tags": []
 }
